@@ -10,7 +10,7 @@ function App() {
                 new Product(4,"Head Phones",2500)]
   function renderTable(){
     return (
-        <Table products={products}/>
+        <Table key={"1"} products={products}/>
     )
   }
   return (
